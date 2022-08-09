@@ -17,3 +17,5 @@ d () {
 alias ..="cd .."
 alias ...="cd ../.."
 
+PATH=$HOME/Library/Android/sdk/cmake/3.18.1/bin:$PATH
+PATH=$HOME/Library/Android/sdk/platform-tools:$PATH

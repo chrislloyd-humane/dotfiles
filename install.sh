@@ -37,6 +37,12 @@ ln -s -f "$DOTFILES/.gitconfig" .
 ln -s -f "$DOTFILES/.gitignore" .
 ln -s -f "$DOTFILES/.gitmessage" .
 
+# git pile
+git clone https://github.com/keith/git-pile.git
+pushd bin
+ln -s -f ../git-pile/bin/* .
+popd
+
 # zgen
 if [ ! -d "${HOME}/.zgen" ]
 then

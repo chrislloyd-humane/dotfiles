@@ -38,10 +38,8 @@ ln -s -f "$DOTFILES/.gitignore" .
 ln -s -f "$DOTFILES/.gitmessage" .
 
 # git pile
-git clone https://github.com/keith/git-pile.git
-pushd bin
-ln -s -f ../git-pile/bin/* .
-popd
+git clone https://github.com/keith/git-pile.git src/git-pile
+( cd bin && ln -s -f ../src/git-pile/bin/* . )
 
 # zgen
 if [ ! -d "${HOME}/.zgen" ]

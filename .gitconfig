@@ -22,6 +22,7 @@
 	whitespace = space-before-tab, trailing-space
 	excludesfile = ~/.gitignore
 	editor = code --wait
+	commentchar = ";"
 
 [push]
 	default = current

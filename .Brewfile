@@ -26,6 +26,7 @@ brew 'tree'
 brew 'wget'
 
 cask '1password'
+cask 'android-commandlinetools'
 cask 'dropbox'
 cask 'google-chrome'
 cask 'google-drive'

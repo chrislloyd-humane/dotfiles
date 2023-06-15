@@ -2,6 +2,7 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
 brew 'mas'
 
 brew 'bash-completion'
@@ -32,6 +33,7 @@ cask 'google-chrome'
 cask 'google-drive'
 cask 'obsidian'
 cask 'raycast'
+cask 'temurin17'
 cask 'visual-studio-code'
 
 cask 'font-ia-writer-duospace'

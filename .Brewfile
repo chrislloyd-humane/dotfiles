@@ -27,6 +27,8 @@ brew 'wget'
 cask '1password'
 cask 'dropbox'
 cask 'visual-studio-code'
+cask 'obsidian'
+cask 'raycast'
 
 mas 'Xcode', id: 497799835
 mas 'iA Writer', id: 775737590

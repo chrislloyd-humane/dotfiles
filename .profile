@@ -29,3 +29,5 @@ PATH=$GOPATH/bin:$PATH
 go env -w GOPRIVATE="github.com/hu-ma-ne/*"
 
 alias axbrew="arch -x86_64 /usr/local/homebrew/bin/brew"
+
+export GIT_PILE_PREFIX="${USER}"

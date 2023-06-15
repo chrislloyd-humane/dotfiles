@@ -51,3 +51,15 @@
 [credential "https://gist.github.com"]
 	helper = 
 	helper = !/opt/homebrew/bin/gh auth git-credential
+
+[pile]
+	cleanupRemoteOnSubmitFailure = true
+
+[branch "main"]
+	pushRemote = NOPE
+
+[advice]
+	skippedCherryPicks = false
+	
+[rerere]
+	enabled = true

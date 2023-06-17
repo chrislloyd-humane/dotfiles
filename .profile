@@ -30,5 +30,4 @@ go env -w GOPRIVATE="github.com/hu-ma-ne/*"
 
 alias axbrew="arch -x86_64 /usr/local/homebrew/bin/brew"
 
-export GIT_PILE_PREFIX="$(echo "${USER}" | tr '[:upper:]' '[:lower:]')/"
-export GIT_PILE_USE_PR_TEMPLATE=true
+export GIT_PILE_PREFIX="$(echo "${USER}" | tr '[:upper:]' '[:lower:]')-"

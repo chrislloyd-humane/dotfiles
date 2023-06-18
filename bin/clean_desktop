@@ -2,6 +2,9 @@
 set -euo pipefail
 
 archive="$HOME/Google Drive/My Drive/Screenshots"
+readonly archive
+
+mkdir -p "$archive"
 
 mv ~/Desktop/Screenshot\ * "$archive"
 mv ~/Desktop/Screen\ Recording\ * "$archive"

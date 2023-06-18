@@ -3,6 +3,7 @@ set -euo pipefail
 
 DOTFILES=$(cd "$(dirname "$0")"; pwd)
 readonly DOTFILES
+export DOTFILES
 pushd "$PWD"
 cd
 
@@ -12,6 +13,7 @@ mkdir -p .config
 # shell
 touch .hushlogin
 mkdir -p bin
+ln -s -f ${DOTFILES}/bin/* bin
 mkdir -p src
 ln -s -f "$DOTFILES/.inputrc" .
 ln -s -f "$DOTFILES/.profile" .

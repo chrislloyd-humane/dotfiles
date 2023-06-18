@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+archive="$HOME/Google Drive/My Drive/Screenshots"
+
+mv ~/Desktop/Screenshot\ * "$archive"
+mv ~/Desktop/Screen\ Recording\ * "$archive"
